@@ -6,4 +6,10 @@ The classification goal is to predict if the client will subscribe a term deposi
 
 A term deposit is a fixed-term investment that includes the deposit of money into an account at a financial institution. Term deposit investments usually carry short-term maturities ranging from one month to a few years and will have varying levels of required minimum deposits.
 
+# Results
+Using XGBoost, **2444 customers** were classified as accepting the term deposit. With a **recall of 81%** and an **accuracy of 88%.**
+
+Recall is how well the algorithm hits the positive class. And Precision is the confidence of the prediction, of what the algorithm said were positive, how many actually are.
+
+# Data Source
 Available on UCI Dataset Repository https://archive.ics.uci.edu/ml/datasets/Bank+Marketing
